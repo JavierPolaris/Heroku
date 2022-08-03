@@ -486,6 +486,12 @@ const usuarios = {
     }
 
   },
+
+  /**
+   * Cuando el usuario pulsa sobre una empresa , se hace una busqueda de todas las reseñas que tiene
+   * esa empresa y se muestran.
+   **/ 
+
   resenas: async (req, res) => {
     try {
       const empresa = req.body.empresa
